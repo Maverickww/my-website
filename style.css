@@ -1,0 +1,68 @@
+body {
+    background-image: repeating-conic-gradient(white, white 90deg, hsl(220, 100%, 70%) 90deg, hsl(220, 100%, 90%) 180deg);
+    background-size: 80px 80px;
+    display: flex;
+    justify-content: center;
+    font-family: verdana;
+    flex-direction: column;
+    align-items: center;
+}
+
+form {
+    width: 20em;
+    text-align: center;
+    background: rgba(255, 255, 255, 0.2);
+    backdrop-filter: blur(10px);
+    border-radius: 12px;
+    border: 1px solid rgba(255, 255, 255, 0.3);
+    box-shadow: 10px 10px 20px rgba(0, 0, 0, 0.4);
+    padding: 30px;
+}
+
+h1 {
+    font-size: 250%;
+
+}
+
+#myinput {
+    height: 2em;
+    border: 2px ridge black;
+    border-radius: 10px;
+}
+
+label,
+#tofahrenheit,
+#tocelsius {
+    cursor: pointer;
+    font-weight: bold;
+}
+
+button {
+    position: relative;
+    cursor: pointer;
+    margin: 10px 0 10px;
+    background: rgba(255, 255, 255, 0.2);
+    border-radius: 5px;
+    border: 2px solid black;
+    padding: 7px 15px;
+    font-size: large;
+    box-shadow: 3px 3px;
+    transition: background 0.2s;
+}
+
+button:hover {
+    background-color: hsl(220, 100%, 80%);
+}
+
+button:active {
+    background-color: hsl(220, 100%, 65%);
+    top: 3px;
+    left: 3px;
+    box-shadow: none;
+}
+
+p {
+    margin-top: 20px;
+    font-size: larger;
+    font-weight: bolder;
+}
